@@ -1,0 +1,40 @@
+.title{
+    text-align: center;
+    font-size:6rem;
+
+}
+
+
+.p p{
+    padding-top:20px;
+    width:50vh;
+    color:white;
+    text-align: center;
+}
+.p h1{
+    padding-top:36px;
+}
+.fp{
+    padding-left: 2vw;
+}
+.sp{
+    padding-left: 37vw;
+}
+.tp{
+    padding-left: 70vw;
+}
+@keyframes slideIn {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .fp, .sp, .tp {
+    animation: slideIn 1s ease forwards;
+  }
+  

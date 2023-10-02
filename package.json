@@ -1,0 +1,27 @@
+{
+  "name": "mine",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "framer-motion": "^10.16.4",
+    "next": "latest",
+    "nodemon": "^3.0.1",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-router-dom": "^6.16.0",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "latest",
+    "file-loader": "^6.2.0",
+    "postcss": "latest",
+    "tailwindcss": "latest"
+  }
+}
